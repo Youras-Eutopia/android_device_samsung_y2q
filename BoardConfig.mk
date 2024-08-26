@@ -23,7 +23,6 @@ TARGET_KERNEL_CONFIG += vendor/samsung/y2q.config
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := y2q
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
