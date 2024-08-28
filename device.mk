@@ -21,6 +21,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Camera
+$(call soong_config_set,samsungCameraVars,extra_ids,52)
+
 # NFC
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/android.hardware.nfc@1.2-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.samsung.rc
